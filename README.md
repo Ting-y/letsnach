@@ -4,8 +4,5 @@
 - Render: [Astro](https://github.com/Ting-y/Astro) is a JavaScript framework to render REST API JSON to HTML
 
 
-
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
 ##Licences
 The source code of letsnach.ca is released under the Apache 2.0 license
