@@ -1,0 +1,28 @@
+{
+  "name": "letsnach",
+  "version": "1.0.0",
+  "description": "Letsnach.ca",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ting-y/letsnach.git"
+  },
+  "keywords": [
+    "charity",
+    "webiste"
+  ],
+  "author": "ting-y",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Ting-y/letsnach/issues"
+  },
+  "homepage": "https://github.com/Ting-y/letsnach#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-less": "^3.0.5"
+  }
+}
