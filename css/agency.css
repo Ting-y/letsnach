@@ -259,12 +259,13 @@ header .intro-text .intro-heading p {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 25px;
+    color: #1E2F5F;
   }
   header .intro-text .intro-heading p {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 75px;
     margin-bottom: 50px;
   }
