@@ -155,7 +155,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
   color: #ffbf00;
 }
-.navbar-brand a {
+.navbar-brand {
     float: left;
     width: 125px;
     height: 50px;
