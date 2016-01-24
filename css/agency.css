@@ -155,6 +155,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
   color: #ffbf00;
 }
+.navbar-brand a {
+    float: left;
+    width: 125px;
+    height: 50px;
+    background: url(https://letsnach.files.wordpress.com/2016/01/letsnach-50x20.png) center left no-repeat;
+    text-indent: -999px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    opacity: 0.85;
+}
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
@@ -218,14 +231,12 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-background.png');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#430768+0,c74ba2+100,660762+100 */
+background: #430768; /* Old browsers */
+background: -moz-linear-gradient(left,  #430768 0%, #c74ba2 100%, #660762 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #430768 0%,#c74ba2 100%,#660762 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #430768 0%,#c74ba2 100%,#660762 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#430768', endColorstr='#660762',GradientType=1 ); /* IE6-9 */
   text-align: center;
   color: white;
 }
@@ -259,7 +270,6 @@ header .intro-text .intro-heading p {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 25px;
-    color: #1E2F5F;
   }
   header .intro-text .intro-heading p {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
